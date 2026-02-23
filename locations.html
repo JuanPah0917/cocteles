@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ubicaciones | NOIR & NEON</title>
+
+  <!-- mismas tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@300;400;500;600&family=Italiana&family=Cinzel:wght@400;600&family=DM+Serif+Display:ital@0;1&family=Bodoni+Moda:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAVBAR (misma) -->
+  <header class="navWrap">
+    <nav class="navBar container" aria-label="Navegación principal">
+      <a class="brand" href="index.html" aria-label="Inicio">NOIR & NEON</a>
+
+      <button class="navToggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="navLinks" id="navLinks">
+        <li><a class="navLink" href="index.html">Inicio</a></li>
+        <li><a class="navLink" href="menu.html">Menú</a></li>
+        <li><a class="navLink is-active" href="locations.html">Ubicaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO LOCATIONS -->
+    <section class="locHero" aria-label="Nuestras sedes">
+      <div class="locHeroOverlay" aria-hidden="true"></div>
+
+      <div class="container locWrap">
+        <header class="locHeader">
+          <p class="locKicker">Nuestras sedes</p>
+          <h1 class="locTitle">Dos ciudades,<br>un solo espíritu</h1>
+        </header>
+
+        <!-- Cards estilo referencia -->
+        <section class="locCards" aria-label="Listado de sedes">
+          <!-- Madrid -->
+          <article class="locCard locCard--active">
+            <div class="locTop">
+              <span class="locNum">01</span>
+              <span class="locTag">ES</span>
+            </div>
+
+            <p class="locMeta">ESPAÑA · MADRID</p>
+            <h2 class="locCity">Madrid</h2>
+            <p class="locDesc">
+              En el corazón de Malasaña: luces bajas, barra viva y noches que se quedan.
+            </p>
+
+            <div class="locBadge">FLAGSHIP · 2016</div>
+            <div class="locUnderline" aria-hidden="true"></div>
+          </article>
+
+          <!-- Barcelona -->
+          <article class="locCard">
+            <div class="locTop">
+              <span class="locNum">02</span>
+              <span class="locTag">ES</span>
+            </div>
+
+            <p class="locMeta">ESPAÑA · BARCELONA</p>
+            <h2 class="locCity">Barcelona</h2>
+            <p class="locDesc">
+              El Eixample nos recibe con energía: coctelería intensa, música y conversación.
+            </p>
+
+            <div class="locBadge">LA FAVORITA · 2018</div>
+            <div class="locUnderline" aria-hidden="true"></div>
+          </article>
+
+          <!-- Italia -->
+          <article class="locCard">
+            <div class="locTop">
+              <span class="locNum">03</span>
+              <span class="locTag">IT</span>
+            </div>
+
+            <p class="locMeta">ITALIA · MILANO</p>
+            <h2 class="locCity">Milano</h2>
+            <p class="locDesc">
+              El origen. Un ritual nocturno elegante donde cada copa se sirve con intención.
+            </p>
+
+            <div class="locBadge">ORIGEN · 2014</div>
+            <div class="locUnderline" aria-hidden="true"></div>
+          </article>
+
+          <!-- Francia -->
+          <article class="locCard">
+            <div class="locTop">
+              <span class="locNum">04</span>
+              <span class="locTag">FR</span>
+            </div>
+
+            <p class="locMeta">FRANCIA · PARIS</p>
+            <h2 class="locCity">Paris</h2>
+            <p class="locDesc">
+              Un refugio nocturno: luces cálidas, clásicos perfectos y un toque de misterio.
+            </p>
+
+            <div class="locBadge">NIGHT ROOM · 2019</div>
+            <div class="locUnderline" aria-hidden="true"></div>
+          </article>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contactBlock" aria-label="Contacto">
+          <h2 class="contactTitle">Contacto</h2>
+
+          <div class="contactGrid">
+            <div class="contactItem">
+              <p class="contactLabel">Email</p>
+              <p class="contactValue">hola@noirneon.com</p>
+            </div>
+
+            <div class="contactItem">
+              <p class="contactLabel">Teléfono</p>
+              <p class="contactValue">+34 600 123 456</p>
+            </div>
+
+            <div class="contactItem">
+              <p class="contactLabel">Instagram</p>
+              <p class="contactValue">@noirneon.bar</p>
+            </div>
+
+            <div class="contactItem">
+              <p class="contactLabel">Reservas</p>
+              <p class="contactValue">DM o WhatsApp (20:00–01:00)</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (mismo) -->
+  <footer class="footer">
+    <div class="container footerInner">
+      <p class="footerCopy">© 2026 NOIR &amp; NEON. Todos los derechos reservados.</p>
+      <p class="footerBrand">NOIR &amp; NEON</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

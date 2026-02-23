@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NOIR & NEON | Cocktail Bar</title>
+
+  <!-- Tipos: base editorial + set para la palabra animada -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@300;400;500;600&family=Italiana&family=Cinzel:wght@400;600&family=DM+Serif+Display:ital@0;1&family=Bodoni+Moda:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAVBAR TRANSPARENTE -->
+  <header class="navWrap">
+    <nav class="navBar container" aria-label="Navegación principal">
+      <a class="brand" href="index.html" aria-label="Inicio">
+        NOIR & NEON
+      </a>
+
+      <button class="navToggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="navLinks" id="navLinks">
+        <li><a class="navLink is-active" href="index.html">Inicio</a></li>
+        <li><a class="navLink" href="menu.html">Menú</a></li>
+        <li><a class="navLink" href="locations.html">Ubicaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO 1 -->
+    <section class="hero hero--img1" aria-label="Hero principal">
+      <div class="heroOverlay" aria-hidden="true"></div>
+
+      <div class="container heroContent">
+        <p class="heroKicker">Coctelería de autor · Música suave · Noche lenta</p>
+
+        <h1 class="heroTitle heroTitle--twoLines">
+          <span class="titleLine">
+            Noches de <span id="cocktailsWord" class="cocktailsWord wordStyle--wine">cócteles</span>,
+          </span>
+          <span class="titleLine">a otro nivel.</span>
+        </h1>
+
+        <p class="heroText heroText--elegant">
+          Sabores intensos, servicio impecable y una barra que convierte cada trago en un pequeño show.
+        </p>
+      </div>
+      <div class="scrollIndicator">
+  <span class="scrollText">SCROLL</span>
+  <span class="scrollLine"></span>
+</div>
+    </section>
+
+    <!-- HERO 2 -->
+    <section class="hero2" aria-label="Horarios y happy hour">
+      <div class="container hero2Grid">
+        <div class="hero2Col hero2Col--left">
+          <p class="hero2Mini">Visita el bar</p>
+          <h2 class="hero2Title">Open hours</h2>
+
+          <div class="hero2Text">
+            <p><span class="hero2Day">Lunes – Viernes:</span><br>4:00 pm – 1:00 am</p>
+            <p><span class="hero2Day">Sábado:</span><br>4:00 pm – 3:00 am</p>
+            <p><span class="hero2Day">Domingo:</span><br>4:00 pm – 2:00 am</p>
+          </div>
+        </div>
+
+        <div class="hero2Col hero2Col--center" aria-label="Imagen del bar">
+          <div class="hero2ImageWrap">
+            <img class="hero2Image" src="imgCO/2.jpg" alt="Barra de cócteles" />
+          </div>
+        </div>
+
+        <div class="hero2Col hero2Col--right">
+          <p class="hero2Mini">La mejor oferta</p>
+          <h2 class="hero2Title">Happy hour</h2>
+
+          <div class="hero2Text">
+            <p><span class="hero2Day">Lunes – Domingo:</span><br>4:00 pm – 7:00 pm</p>
+            <p>20% off en vinos por copa</p>
+            <p>15% off en cócteles</p>
+            <p>25% off en cerveza artesanal seleccionada</p>
+            <p>10% off en destilados</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO 3 -->
+    <section class="hero3" aria-label="La experiencia">
+      <div class="container hero3Inner">
+        <p class="hero3Kicker">La experiencia</p>
+        <h2 class="hero3Title">Más que cócteles, momentos</h2>
+
+        <div class="hero3Cards">
+          <article class="expCard">
+            <h3 class="expTitle">Ambiente</h3>
+            <p class="expText">
+              Un lugar cálido e iluminado, con DJ todas las noches y una energía perfecta para quedarte.
+            </p>
+          </article>
+
+          <article class="expCard">
+            <h3 class="expTitle">Sangría y cócteles</h3>
+            <p class="expText">
+              Nuestra sangría de la casa, preparada con receta de autor. Copas de autor para los espíritus más aventureros.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO 4 (quote) -->
+    <section class="hero4" aria-label="Cita del fundador">
+      <div class="container hero4Inner">
+        <div class="hero4QuoteMark" aria-hidden="true">“</div>
+
+        <p class="hero4Quote">
+          La coctelería no es solo una receta: es una forma de encender la noche.
+        </p>
+
+        <p class="hero4By">
+          — <span class="hero4Name">Adrián Noir</span>, fundador · Madrid, 2016
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footerInner">
+      <p class="footerCopy">© 2026 NOIR &amp; NEON. Todos los derechos reservados.</p>
+      <p class="footerBrand">NOIR &amp; NEON</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

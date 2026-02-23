@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Menú | NOIR & NEON</title>
+
+  <!-- mismas tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@300;400;500;600&family=Italiana&family=Cinzel:wght@400;600&family=DM+Serif+Display:ital@0;1&family=Bodoni+Moda:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAVBAR (misma) -->
+  <header class="navWrap">
+    <nav class="navBar container" aria-label="Navegación principal">
+      <a class="brand" href="index.html" aria-label="Inicio">
+        NOIR & NEON
+      </a>
+
+      <button class="navToggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="navLinks" id="navLinks">
+        <li><a class="navLink" href="index.html">Inicio</a></li>
+        <li><a class="navLink is-active" href="menu.html">Menú</a></li>
+        <li><a class="navLink" href="locations.html">Ubicaciones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO MENÚ -->
+    <section class="menuHero" aria-label="Menú">
+      <div class="menuHeroOverlay" aria-hidden="true"></div>
+
+      <div class="container menuWrap">
+        <header class="menuHeader">
+          <h1 class="menuTitle">Menú</h1>
+          <p class="menuSubtitle">Coctelería de autor · Clásicos reinventados · Sangría de la casa</p>
+        </header>
+
+        <!-- CARTA -->
+        <div class="menuGrid">
+
+          <!-- Coctelería de autor -->
+          <section class="menuCard" aria-label="Coctelería de autor">
+            <h2 class="menuSectionTitle">Coctelería de autor</h2>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Noir Spritz</span>
+                <span class="menuItemPrice">12€</span>
+              </div>
+              <p class="menuItemDesc">Aperol, prosecco, soda negra cítrica, naranja ahumada.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Neon Martini</span>
+                <span class="menuItemPrice">13€</span>
+              </div>
+              <p class="menuItemDesc">Vodka, vermut seco, twist de limón, aceite de bergamota.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Flor de Granada</span>
+                <span class="menuItemPrice">12€</span>
+              </div>
+              <p class="menuItemDesc">Gin, granada, flor de azahar, limón, espuma suave.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Café & Noche</span>
+                <span class="menuItemPrice">13€</span>
+              </div>
+              <p class="menuItemDesc">Ron añejo, cold brew, cacao, toque de vainilla.</p>
+            </div>
+          </section>
+
+          <!-- Clásicos -->
+          <section class="menuCard" aria-label="Clásicos">
+            <h2 class="menuSectionTitle">Clásicos</h2>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Negroni</span>
+                <span class="menuItemPrice">11€</span>
+              </div>
+              <p class="menuItemDesc">Gin, vermut rojo, Campari.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Old Fashioned</span>
+                <span class="menuItemPrice">12€</span>
+              </div>
+              <p class="menuItemDesc">Bourbon, bitter, azúcar, naranja.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Margarita</span>
+                <span class="menuItemPrice">11€</span>
+              </div>
+              <p class="menuItemDesc">Tequila, triple sec, limón, sal.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Espresso Martini</span>
+                <span class="menuItemPrice">12€</span>
+              </div>
+              <p class="menuItemDesc">Vodka, espresso, licor de café.</p>
+            </div>
+          </section>
+
+          <!-- Sangrías -->
+          <section class="menuCard" aria-label="Sangrías">
+            <h2 class="menuSectionTitle">Sangrías</h2>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Sangría de la casa</span>
+                <span class="menuItemPrice">10€</span>
+              </div>
+              <p class="menuItemDesc">Receta de autor, frutas cítricas, especias suaves.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Sangría Rosé</span>
+                <span class="menuItemPrice">10€</span>
+              </div>
+              <p class="menuItemDesc">Rosé, fresa, hibiscus, toque de lima.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Sangría Blanca</span>
+                <span class="menuItemPrice">10€</span>
+              </div>
+              <p class="menuItemDesc">Vino blanco, durazno, manzana, hierbabuena.</p>
+            </div>
+          </section>
+
+          <!-- Sin alcohol -->
+          <section class="menuCard" aria-label="Sin alcohol">
+            <h2 class="menuSectionTitle">Sin alcohol</h2>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Cítrico 0.0</span>
+                <span class="menuItemPrice">8€</span>
+              </div>
+              <p class="menuItemDesc">Pomelo, limón, soda, romero.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Menta & Lima</span>
+                <span class="menuItemPrice">8€</span>
+              </div>
+              <p class="menuItemDesc">Hierbabuena, lima, ginger ale, hielo frappé.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Tropical Night</span>
+                <span class="menuItemPrice">9€</span>
+              </div>
+              <p class="menuItemDesc">Piña, maracuyá, coco, toque de vainilla.</p>
+            </div>
+          </section>
+
+          <!-- Tapas -->
+          <section class="menuCard" aria-label="Tapas">
+            <h2 class="menuSectionTitle">Tapas</h2>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Olivas marinadas</span>
+                <span class="menuItemPrice">6€</span>
+              </div>
+              <p class="menuItemDesc">Cítricos, aceite de oliva, hierbas.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Tabla de quesos</span>
+                <span class="menuItemPrice">14€</span>
+              </div>
+              <p class="menuItemDesc">Selección curada, miel, frutos secos.</p>
+            </div>
+
+            <div class="menuItem">
+              <div class="menuItemTop">
+                <span class="menuItemName">Pan & dips</span>
+                <span class="menuItemPrice">9€</span>
+              </div>
+              <p class="menuItemDesc">Hummus, aceite especiado, pan tostado.</p>
+            </div>
+          </section>
+
+        </div>
+
+        <p class="menuNote" id="reservas">
+          ¿Reservas? Escríbenos por Instagram o consulta nuestras ubicaciones.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (mismo) -->
+  <footer class="footer">
+    <div class="container footerInner">
+      <p class="footerCopy">© 2026 NOIR &amp; NEON. Todos los derechos reservados.</p>
+      <p class="footerBrand">NOIR &amp; NEON</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
